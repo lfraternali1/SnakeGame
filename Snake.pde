@@ -1,9 +1,9 @@
-class snake{
+class Snake{
   int dim;
   int[] x, y, dir;
   int currdir, nextdir;
   
-  snake(int dim){
+  Snake(int dim){
     this.dim = dim;
     init();
   }

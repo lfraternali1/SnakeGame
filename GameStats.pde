@@ -1,7 +1,7 @@
-class gameStats {
+class GameStats {
   int score, level, highScore, speed;
 
-  gameStats() {
+  GameStats() {
     reset();
   }
 

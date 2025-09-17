@@ -1,14 +1,14 @@
-class food {
+class Food {
   int fx, fy, dim;
   
   // Costruttore
-  food(int dim, snake s){
+  Food(int dim, Snake s){
     this.dim = dim;
     setPosition(s);
   }
   
   // Posiziona il cibo evitando il serpente
-  void setPosition(snake s){
+  void setPosition(Snake s){
     boolean insideSnake = true;
     do {
       fx = ((int)random(width)/dim)*dim;
@@ -25,7 +25,7 @@ class food {
    }
    
   // Disegna il cibo
-  void drawFood(int fx, int fy){
+  void draw(){
     fill(255,0,0);
     rect(fx, fy, dim, dim);
   }
