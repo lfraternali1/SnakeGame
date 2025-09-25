@@ -30,7 +30,7 @@ Include gestione del punteggio, livelli e high score, con possibilità di ripart
 1. Scarica Processing da [processing.org](https://processing.org/)
 2. Clona il repository:
    ```bash
-   git clone https://github.com/TUOUSERNAME/SnakeGame.git
+   git clone https://github.com/lfraternali1/SnakeGame.git
 
 ![snake](https://github.com/user-attachments/assets/136d1b8e-fcc9-4b16-8ed1-c1a5ac794096)
 
